@@ -1,5 +1,6 @@
 import React from 'react'
 import twiter from '../assests/twitter-logo-4 1.svg'
+import { Link } from 'react-router-dom'
 const Login = () => {
 
   return (
@@ -11,7 +12,7 @@ const Login = () => {
       <button className='btn'>Log in</button>
       <div>
         <p>Forgot Password?</p>
-        <p>Signup to Twitter</p>
+        <Link to='/register'>Signup to Twitter</Link>
       </div>
     </div>
   )
